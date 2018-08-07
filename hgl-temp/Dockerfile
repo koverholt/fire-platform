@@ -11,4 +11,4 @@ RUN /opt/anaconda/bin/conda install -y flask numpy
 
 copy . /
 EXPOSE 5000
-CMD /opt/anaconda/bin python /hgl-temp.py
+CMD /opt/anaconda/bin/python /app.py
